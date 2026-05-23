@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путишествия</title>
+</head>
+<body>
+    <h2>Путишествия</h2>
+    <ul>
+        <li>
+            <a href="#country">
+                Название страны
+            </a>
+        </li>
+        
+        <li>
+            <a href="#map">
+                Карта регионов
+            </a>
+        </li>
+        
+        <li>
+            <a href="#description">
+                Описание
+            </a>
+        </li>
+        
+        <li>
+            <a href="#weather">
+                Погода
+            </a>
+        </li>
+        
+        <li>
+            <a href="#about">
+                О нас
+            </a>
+        </li>
+        
+        <li>
+            <a href="#feedback">
+                Форма обратной связи
+            </a>
+        </li>
+        
+        <li>
+            <a href="#faq">
+                FAQ
+            </a>
+        </li>
+
+        <li>
+            <a href="#contacts">
+                Контакты
+            </a>
+        </li>
+    </ul>
+
+    <header id="#country">
+        <h1>Название страны</h1>
+        <p>блок &lt;header&gt; - здесь может быть логотип, слоган, приветствие</p>
+    </header>
+
+    <section id="map">
+        <h2>Карта регионов</h2>
+        <p>Кликабельное svg-изображение с возможностью выбора + анимация + мобилка</p>
+    </section>
+    
+    <section id="description">
+        <h2>Описание</h2>
+         <p>Красиво оформленный текст. Здесь будет увлекательное повествование о стране, её культуре, традициях, достопримечательностях.</p>
+    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Varius lectus eros tincidunt per inceptos habitant. Netus placerat tristique etiam fermentum metus varius. Dignissim accumsan fames curae ad elementum sociosqu.</p>
+    <p>В будущем этот блок получит элегантные стили: шрифты, отступы, фоновые акценты и т.д.</p>
+    </section>
+
+    <hr />
+
+    <section id="weather">
+        <h2>Погода</h2>
+        <p>желательно на карте, либо прогноз по регионам</p>
+        <table border="1" cellpadding="5" cellspacing="0">
+        <caption>Прогноз погоды по регионам</caption>
+        <thead>
+            <tr>
+                <th>Регион</th>
+                <th>Температура (день)</th>
+                <th>Осадки</th>
+                <th>Ветер</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Регион А</td><td>+24°C</td><td>Солнечно</td><td>3 м/с</td></tr>
+            <tr><td>Регион Б</td><td>+18°C</td><td>Дождь</td><td>5 м/с</td></tr>
+            <tr><td>Регион В</td><td>+21°C</td><td>Облачно</td><td>2 м/с</td></tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>блок с цифрами, тезисно</p>
+        <ul>
+            <li><strong>10+</strong> уникальных регионов</li>
+            <li><strong>25 млн</strong> туристов ежегодно</li>
+            <li><strong>3</strong> объекта Всемирного наследия ЮНЕСКО</li>
+            <li><strong>1200 км</strong> живописных побережий</li>
+        </ul>
+    </section>
+    <section id="feedback">
+        <form action="#" method="post">
+        <div>
+            <label for="name">Ваше имя:</label><br>
+            <input type="text" id="name" name="name" placeholder="Иван Петров" size="40">
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.ru" size="40">
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="topic">Тема вопроса:</label><br>
+            <select id="topic" name="topic">
+                <option value="tour">Впечатления о туре</option>
+                <option value="visa">Виза и документы</option>
+                <option value="hotel">Проживание</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="5" cols="45" placeholder="Напишите ваш вопрос..."></textarea>
+        </div>
+        <div style="margin-top: 10px;">
+            <input type="checkbox" id="agree" name="agree" value="yes">
+            <label for="agree">Я согласен на обработку персональных данных</label>
+        </div>
+        <div style="margin-top: 15px;">
+            <button type="submit">Отправить вопрос</button>
+            <button type="reset">Очистить форму</button>
+        </div>
+    </form>
+    </section>
+    <hr>
+    <section id="faq">
+        <details>
+        <summary><strong>Нужна ли виза для посещения страны?</strong></summary>
+            <p>Для граждан большинства стран требуется электронное разрешение. Уточняйте требования в консульстве за 30 дней до поездки.</p>
+        </details>
+        
+        <details>
+            <summary><strong>Какие вакцинации необходимы?</strong></summary>
+            <p>Рекомендуются стандартные прививки (гепатит А, тиф). Для посещения тропических лесов — желтая лихорадка.</p>
+        </details>
+        
+        <details>
+            <summary><strong>Безопасно ли путешествовать одному?</strong></summary>
+            <p>Да, туристические зоны хорошо охраняются, но соблюдайте базовые меры предосторожности.</p>
+        </details>
+        
+        <details>
+            <summary><strong>Какая валюта используется?</strong></summary>
+            <p>Национальная валюта — талеры, но везде принимают доллары и карты Visa/Mastercard.</p>
+        </details>
+    </section>
+    <hr>
+
+    <footer id="contacts">
+        <h2>Контакты</h2>
+         <address>
+        <strong>Туристическое агентство "Путешествия мечты"</strong><br>
+        Адрес: г. Москва, ул. Путешественников, д. 18, офис 304<br>
+        Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a><br>
+        Email: <a href="mailto:info@travel-dream.ru">info@travel-dream.ru</a>
+    </address>
+    </footer>
+
+</body>
+</html>

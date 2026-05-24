@@ -1,0 +1,104 @@
+body{
+    background-color: #325050;
+    font-family: Roboto;
+}
+.header_main{
+    color: #fff;
+    text-align: center;
+}
+.inputElement{
+    width: 300px;
+    padding: 15px;
+    color: #ab958c;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn{
+    width: 150px;
+    border: none;
+}
+input{
+    border: none;
+}
+.btn-dan{
+    background-color: #a43434;
+}
+.lists{
+    list-style: none;
+    width: 400px;
+    background-color: #fff;
+    margin:50px auto;
+    padding: 0;
+}
+.list-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.list-group > div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btn-remove{
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+}
+
+input[type="checkbox"] {
+  appearance: none; 
+  -webkit-appearance: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  cursor: pointer; 
+  outline: none;   
+}
+input[type="checkbox"]:hover,
+input[type="checkbox"]:checked {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+.list-group:hover{
+    background-color: #878787;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.list-group:hover .label{
+ text-decoration: line-through;
+}
+
+input[type="checkbox"]:checked {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .form {
+        flex-direction: column;
+        gap: 10px
+    }
+    .btn{
+        height: 50px;
+
+    }
+}

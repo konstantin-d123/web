@@ -100,6 +100,8 @@ body{
 }
 .d-flex{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .d-flex > div{
     width: 50%;
@@ -108,6 +110,50 @@ body{
     width: 100%;
 }
 .container h2{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
+}
+.d-flex img{
+    border-radius: 15px;
+}
+.r-elemnt{
+    box-shadow: 0 0 14px #eee;
+    border-radius: 15px;
+    height: 350px;
+}
+.row-offer{
+    gap: 20px;
+}
+.r-elemnt img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.r-elemnt p, .r-elemnt h3{
+    margin: 10px;
+}
+.r-elemnt p:first-child{
+    margin: 0;
+    padding: 0;
+}
+.r-elemnt p:last-child{
+    font-weight: bolder;
+}
+
+.buttons{
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.r-tour{
+    height: 400px;
+}
+.section-w{
+    background-color: #fff;
+}
+.section-e{
+    background-color: #eee;
+}
+.b-reviews{
+    display: flex;
 }

@@ -112,6 +112,7 @@ body{
 .container h2{
     font-size: 35px;
     text-align: center;
+    padding-top: 62px;
 }
 .d-flex img{
     border-radius: 15px;
@@ -144,6 +145,7 @@ body{
     margin: 30px 10px 10px 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .r-tour{
     height: 400px;
@@ -156,4 +158,40 @@ body{
 }
 .b-reviews{
     display: flex;
+    gap: 15px;
+}
+
+.header_review{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.header_review img{
+    width: 70px;
+    border-radius: 50%;
+}
+.header_review p{
+    margin: 0;
+    padding: 0;
+}
+.header_review h3{
+    margin-bottom: 5px;
+}
+.review{
+    background-color: #99999947;
+        height: 201px;
+    padding: 15px;
+}
+.btn-main{
+    transition: all .5s ease;
+    display: block;
+    width: 170px;
+    margin: auto;
+}
+.btn-main:hover{
+    transform: scale(1.05);
+    background-color: #c98333;
+}
+.buttons .btn-main{
+        width: 123px;
 }

@@ -1,0 +1,73 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 20px auto;
+}
+.select_city{
+    text-align: center;
+    font-size: 25px;
+}
+.carusel{
+    width: 100%;
+    position: relative;
+}
+
+.carusel-element{
+    box-shadow: 0 0 10px #b9b5b5;
+    padding: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.carusel-element h2{
+    text-align: center;
+}
+.carusel-body{
+    display: flex;
+}
+.carusel-body img{
+    width: 100%;
+
+}
+.carusel-body div:first-child{
+    width: 300px;
+    font-size: 200px;
+}
+.carusel-body div:nth-child(2){
+    width: 400px;
+}
+.g{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.go{
+    color: #b1b1b1
+}
+
+.btn-left img, .btn-right img{
+    width: 80px;
+}
+.btn-left{
+    position: absolute;
+    left: -111px;
+    top: 165px;
+}
+.btn-right{
+    position: absolute;
+    right: -111px;
+    top: 165px
+}
+
+#caruselCOntantMain{
+    overflow: hidden;
+    height: 422px;
+}
+
+.btn-left, .btn-right{
+    cursor: pointer;
+}
+
